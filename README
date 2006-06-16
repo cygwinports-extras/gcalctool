@@ -1,0 +1,224 @@
+gcalctool
+-------------------------------------------
+The GNOME desktop calculator.
+
+Runtime requirements:
+  GConf2-2.10.1-1
+  atk-runtime-1.9.1-1
+  gtk2-x11-runtime-2.6.8-1
+  libgnome2-2.12.0.1-1
+  libgnomeui2-2.12.0-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.18-1
+  autoconf2.5-2.59-2
+  automake1.9-1.9.6-1
+  binutils-20040725-2
+  bison-20030307-1
+  flex-2.5.4a-4
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  intltool-0.33-1
+  make-3.80-1
+  pkgconfig-0.17.2-2
+  sed-4.1.4-1
+
+Canonical homepage:
+  http://www.gnome.org/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/GNOME/sources/gcalctool/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gcalctool-5.6.31-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./gcalctool-5.6.31-1.sh all
+
+This will create:
+  /usr/src/gcalctool-5.6.31-1-src.tar.bz2
+  /usr/src/gcalctool-5.6.31-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/gconf/schemas/gcalctool.schemas
+  /etc/postinstall/gcalctool.sh
+  /etc/preremove/gcalctool.sh
+  /usr/bin/gcalctool.exe
+  /usr/bin/gnome-calculator.exe
+  /usr/share/applications/gcalctool.desktop
+  /usr/share/doc/Cygwin/gcalctool-5.6.31.README
+  /usr/share/doc/gcalctool-5.6.31/AUTHORS
+  /usr/share/doc/gcalctool-5.6.31/ChangeLog
+  /usr/share/doc/gcalctool-5.6.31/COPYING
+  /usr/share/doc/gcalctool-5.6.31/INSTALL
+  /usr/share/doc/gcalctool-5.6.31/MAINTAINERS
+  /usr/share/doc/gcalctool-5.6.31/NEWS
+  /usr/share/doc/gcalctool-5.6.31/README
+  /usr/share/doc/gcalctool-5.6.31/TODO
+  /usr/share/gnome/help/gcalctool/C/figures/gcalctool_basic_window.png
+  /usr/share/gnome/help/gcalctool/C/figures/gcalctool_financial_window.png
+  /usr/share/gnome/help/gcalctool/C/figures/gcalctool_menu_symbol.png
+  /usr/share/gnome/help/gcalctool/C/figures/gcalctool_scientific_window.png
+  /usr/share/gnome/help/gcalctool/C/gcalctool.xml
+  /usr/share/gnome/help/gcalctool/C/legal.xml
+  /usr/share/gnome/help/gcalctool/de/figures/gcalctool_basic_window.png
+  /usr/share/gnome/help/gcalctool/de/figures/gcalctool_financial_window.png
+  /usr/share/gnome/help/gcalctool/de/figures/gcalctool_menu_symbol.png
+  /usr/share/gnome/help/gcalctool/de/figures/gcalctool_scientific_window.png
+  /usr/share/gnome/help/gcalctool/de/gcalctool.xml
+  /usr/share/gnome/help/gcalctool/de/legal.xml
+  /usr/share/gnome/help/gcalctool/es/figures/gcalctool_basic_window.png
+  /usr/share/gnome/help/gcalctool/es/figures/gcalctool_financial_window.png
+  /usr/share/gnome/help/gcalctool/es/figures/gcalctool_menu_symbol.png
+  /usr/share/gnome/help/gcalctool/es/figures/gcalctool_scientific_window.png
+  /usr/share/gnome/help/gcalctool/es/gcalctool.xml
+  /usr/share/gnome/help/gcalctool/es/legal.xml
+  /usr/share/gnome/help/gcalctool/fr/figures/gcalctool_basic_window.png
+  /usr/share/gnome/help/gcalctool/fr/figures/gcalctool_financial_window.png
+  /usr/share/gnome/help/gcalctool/fr/figures/gcalctool_menu_symbol.png
+  /usr/share/gnome/help/gcalctool/fr/figures/gcalctool_scientific_window.png
+  /usr/share/gnome/help/gcalctool/fr/gcalctool.xml
+  /usr/share/gnome/help/gcalctool/fr/legal.xml
+  /usr/share/gnome/help/gcalctool/it/figures/gcalctool_basic_window.png
+  /usr/share/gnome/help/gcalctool/it/figures/gcalctool_financial_window.png
+  /usr/share/gnome/help/gcalctool/it/figures/gcalctool_menu_symbol.png
+  /usr/share/gnome/help/gcalctool/it/figures/gcalctool_scientific_window.png
+  /usr/share/gnome/help/gcalctool/it/gcalctool.xml
+  /usr/share/gnome/help/gcalctool/it/legal.xml
+  /usr/share/gnome/help/gcalctool/ja/figures/gcalctool_basic_window.png
+  /usr/share/gnome/help/gcalctool/ja/figures/gcalctool_financial_window.png
+  /usr/share/gnome/help/gcalctool/ja/figures/gcalctool_menu_symbol.png
+  /usr/share/gnome/help/gcalctool/ja/figures/gcalctool_scientific_window.png
+  /usr/share/gnome/help/gcalctool/ja/gcalctool.xml
+  /usr/share/gnome/help/gcalctool/ja/legal.xml
+  /usr/share/gnome/help/gcalctool/ko/figures/gcalctool_basic_window.png
+  /usr/share/gnome/help/gcalctool/ko/figures/gcalctool_financial_window.png
+  /usr/share/gnome/help/gcalctool/ko/figures/gcalctool_menu_symbol.png
+  /usr/share/gnome/help/gcalctool/ko/figures/gcalctool_scientific_window.png
+  /usr/share/gnome/help/gcalctool/ko/gcalctool.xml
+  /usr/share/gnome/help/gcalctool/ko/legal.xml
+  /usr/share/gnome/help/gcalctool/sv/figures/gcalctool_basic_window.png
+  /usr/share/gnome/help/gcalctool/sv/figures/gcalctool_financial_window.png
+  /usr/share/gnome/help/gcalctool/sv/figures/gcalctool_menu_symbol.png
+  /usr/share/gnome/help/gcalctool/sv/figures/gcalctool_scientific_window.png
+  /usr/share/gnome/help/gcalctool/sv/gcalctool.xml
+  /usr/share/gnome/help/gcalctool/sv/legal.xml
+  /usr/share/gnome/help/gcalctool/zh_CN/figures/gcalctool_basic_window.png
+  /usr/share/gnome/help/gcalctool/zh_CN/figures/gcalctool_financial_window.png
+  /usr/share/gnome/help/gcalctool/zh_CN/figures/gcalctool_menu_symbol.png
+  /usr/share/gnome/help/gcalctool/zh_CN/figures/gcalctool_scientific_window.png
+  /usr/share/gnome/help/gcalctool/zh_CN/gcalctool.xml
+  /usr/share/gnome/help/gcalctool/zh_CN/legal.xml
+  /usr/share/gnome/help/gcalctool/zh_HK/figures/gcalctool_basic_window.png
+  /usr/share/gnome/help/gcalctool/zh_HK/figures/gcalctool_financial_window.png
+  /usr/share/gnome/help/gcalctool/zh_HK/figures/gcalctool_menu_symbol.png
+  /usr/share/gnome/help/gcalctool/zh_HK/figures/gcalctool_scientific_window.png
+  /usr/share/gnome/help/gcalctool/zh_HK/gcalctool.xml
+  /usr/share/gnome/help/gcalctool/zh_HK/legal.xml
+  /usr/share/gnome/help/gcalctool/zh_TW/figures/gcalctool_basic_window.png
+  /usr/share/gnome/help/gcalctool/zh_TW/figures/gcalctool_financial_window.png
+  /usr/share/gnome/help/gcalctool/zh_TW/figures/gcalctool_menu_symbol.png
+  /usr/share/gnome/help/gcalctool/zh_TW/figures/gcalctool_scientific_window.png
+  /usr/share/gnome/help/gcalctool/zh_TW/gcalctool.xml
+  /usr/share/gnome/help/gcalctool/zh_TW/legal.xml
+  /usr/share/locale/am/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/ar/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/az/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/be/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/bg/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/bs/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/ca/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/cs/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/cy/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/da/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/de/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/el/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/en_CA/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/en_GB/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/en_US/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/es/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/et/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/eu/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/fa/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/fi/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/fr/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/ga/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/gl/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/gu/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/he/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/hi/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/hr/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/hu/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/id/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/it/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/ja/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/ko/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/lt/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/mk/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/ml/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/mn/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/ms/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/nb/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/ne/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/nl/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/no/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/or/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/pa/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/pl/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/pt/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/ro/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/ru/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/rw/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/sk/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/sl/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/sq/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/sr/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/sr@Latn/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/sv/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/ta/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/te/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/th/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/tk/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/tr/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/uk/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/vi/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/xh/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/gcalctool.mo
+  /usr/share/man/man1/gcalctool.1.gz
+  /usr/share/omf/gcalctool/gcalctool-C.omf
+  /usr/share/omf/gcalctool/gcalctool-de.omf
+  /usr/share/omf/gcalctool/gcalctool-es.omf
+  /usr/share/omf/gcalctool/gcalctool-fr.omf
+  /usr/share/omf/gcalctool/gcalctool-it.omf
+  /usr/share/omf/gcalctool/gcalctool-ja.omf
+  /usr/share/omf/gcalctool/gcalctool-ko.omf
+  /usr/share/omf/gcalctool/gcalctool-sv.omf
+  /usr/share/omf/gcalctool/gcalctool-zh_CN.omf
+  /usr/share/omf/gcalctool/gcalctool-zh_HK.omf
+  /usr/share/omf/gcalctool/gcalctool-zh_TW.omf
+
+--------------------
+
+Port Notes:
+
+----- version 5.6.31-1 -----
+Version bump for GNOME 2.12.
+
+----- version 5.5.42-1 -----
+Update for GNOME 2.10.
+
+----- version 4.4.20-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
