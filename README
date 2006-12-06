@@ -3,26 +3,27 @@ gcalctool
 The GNOME desktop calculator.
 
 Runtime requirements:
-  GConf2-2.10.1-1
-  atk-runtime-1.9.1-1
-  gtk2-x11-runtime-2.6.8-1
-  libgnome2-2.12.0.1-1
-  libgnomeui2-2.12.0-1
+  cygwin-1.5.22-1
+  GConf2-2.16.0-1
+  atk-1.12.3-1
+  gtk2-x11-2.10.6-1
+  libgnome2-2.16.0-1
+  libgnomeui2-2.16.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.18-1
-  autoconf2.5-2.59-2
+  cygwin-1.5.22-1
+  autoconf2.5-2.60-1
   automake1.9-1.9.6-1
-  binutils-20040725-2
-  bison-20030307-1
-  flex-2.5.4a-4
+  binutils-20060817-1
+  bison-2.3-1
+  flex-2.5.33-1
   gawk-3.1.5-2
   gcc-core-3.4.4-1
-  intltool-0.33-1
-  make-3.80-1
-  pkgconfig-0.17.2-2
-  sed-4.1.4-1
+  intltool-0.35.0-1
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
 
 Canonical homepage:
   http://www.gnome.org/
@@ -33,15 +34,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gcalctool-5.6.31-1-src.tar.bz2
+  unpack gcalctool-5.8.25-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  ./gcalctool-5.6.31-1.sh all
+  cygport ./gcalctool-5.8.25-1.cygport all
 
 This will create:
-  /usr/src/gcalctool-5.6.31-1-src.tar.bz2
-  /usr/src/gcalctool-5.6.31-1.tar.bz2
+  /usr/src/gcalctool-5.8.25-1-src.tar.bz2
+  /usr/src/gcalctool-5.8.25-1.tar.bz2
 
 -------------------------------------------
 
@@ -53,21 +54,28 @@ Files included in the binary package:
   /usr/bin/gcalctool.exe
   /usr/bin/gnome-calculator.exe
   /usr/share/applications/gcalctool.desktop
-  /usr/share/doc/Cygwin/gcalctool-5.6.31.README
-  /usr/share/doc/gcalctool-5.6.31/AUTHORS
-  /usr/share/doc/gcalctool-5.6.31/ChangeLog
-  /usr/share/doc/gcalctool-5.6.31/COPYING
-  /usr/share/doc/gcalctool-5.6.31/INSTALL
-  /usr/share/doc/gcalctool-5.6.31/MAINTAINERS
-  /usr/share/doc/gcalctool-5.6.31/NEWS
-  /usr/share/doc/gcalctool-5.6.31/README
-  /usr/share/doc/gcalctool-5.6.31/TODO
+  /usr/share/doc/Cygwin/gcalctool-5.8.25.README
+  /usr/share/doc/gcalctool-5.8.25/AUTHORS
+  /usr/share/doc/gcalctool-5.8.25/COPYING
+  /usr/share/doc/gcalctool-5.8.25/ChangeLog
+  /usr/share/doc/gcalctool-5.8.25/INSTALL
+  /usr/share/doc/gcalctool-5.8.25/MAINTAINERS
+  /usr/share/doc/gcalctool-5.8.25/NEWS
+  /usr/share/doc/gcalctool-5.8.25/README
+  /usr/share/doc/gcalctool-5.8.25/TODO
   /usr/share/gnome/help/gcalctool/C/figures/gcalctool_basic_window.png
   /usr/share/gnome/help/gcalctool/C/figures/gcalctool_financial_window.png
   /usr/share/gnome/help/gcalctool/C/figures/gcalctool_menu_symbol.png
   /usr/share/gnome/help/gcalctool/C/figures/gcalctool_scientific_window.png
   /usr/share/gnome/help/gcalctool/C/gcalctool.xml
   /usr/share/gnome/help/gcalctool/C/legal.xml
+  /usr/share/gnome/help/gcalctool/bg/figures/gcalctool_advanced_window.png
+  /usr/share/gnome/help/gcalctool/bg/figures/gcalctool_basic_window.png
+  /usr/share/gnome/help/gcalctool/bg/figures/gcalctool_financial_window.png
+  /usr/share/gnome/help/gcalctool/bg/figures/gcalctool_menu_symbol.png
+  /usr/share/gnome/help/gcalctool/bg/figures/gcalctool_scientific_window.png
+  /usr/share/gnome/help/gcalctool/bg/gcalctool.xml
+  /usr/share/gnome/help/gcalctool/bg/legal.xml
   /usr/share/gnome/help/gcalctool/de/figures/gcalctool_basic_window.png
   /usr/share/gnome/help/gcalctool/de/figures/gcalctool_financial_window.png
   /usr/share/gnome/help/gcalctool/de/figures/gcalctool_menu_symbol.png
@@ -79,13 +87,11 @@ Files included in the binary package:
   /usr/share/gnome/help/gcalctool/es/figures/gcalctool_menu_symbol.png
   /usr/share/gnome/help/gcalctool/es/figures/gcalctool_scientific_window.png
   /usr/share/gnome/help/gcalctool/es/gcalctool.xml
-  /usr/share/gnome/help/gcalctool/es/legal.xml
   /usr/share/gnome/help/gcalctool/fr/figures/gcalctool_basic_window.png
   /usr/share/gnome/help/gcalctool/fr/figures/gcalctool_financial_window.png
   /usr/share/gnome/help/gcalctool/fr/figures/gcalctool_menu_symbol.png
   /usr/share/gnome/help/gcalctool/fr/figures/gcalctool_scientific_window.png
   /usr/share/gnome/help/gcalctool/fr/gcalctool.xml
-  /usr/share/gnome/help/gcalctool/fr/legal.xml
   /usr/share/gnome/help/gcalctool/it/figures/gcalctool_basic_window.png
   /usr/share/gnome/help/gcalctool/it/figures/gcalctool_financial_window.png
   /usr/share/gnome/help/gcalctool/it/figures/gcalctool_menu_symbol.png
@@ -109,7 +115,6 @@ Files included in the binary package:
   /usr/share/gnome/help/gcalctool/sv/figures/gcalctool_menu_symbol.png
   /usr/share/gnome/help/gcalctool/sv/figures/gcalctool_scientific_window.png
   /usr/share/gnome/help/gcalctool/sv/gcalctool.xml
-  /usr/share/gnome/help/gcalctool/sv/legal.xml
   /usr/share/gnome/help/gcalctool/zh_CN/figures/gcalctool_basic_window.png
   /usr/share/gnome/help/gcalctool/zh_CN/figures/gcalctool_financial_window.png
   /usr/share/gnome/help/gcalctool/zh_CN/figures/gcalctool_menu_symbol.png
@@ -133,12 +138,15 @@ Files included in the binary package:
   /usr/share/locale/az/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/be/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/bg/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/bn/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/bn_IN/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/bs/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/ca/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/cs/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/cy/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/da/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/de/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/dz/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/el/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/en_CA/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/en_GB/LC_MESSAGES/gcalctool.mo
@@ -159,16 +167,19 @@ Files included in the binary package:
   /usr/share/locale/id/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/it/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/ja/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/ka/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/ko/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/ku/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/lt/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/lv/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/mk/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/ml/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/mn/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/mr/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/ms/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/nb/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/ne/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/nl/LC_MESSAGES/gcalctool.mo
-  /usr/share/locale/no/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/or/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/pa/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/pl/LC_MESSAGES/gcalctool.mo
@@ -192,9 +203,11 @@ Files included in the binary package:
   /usr/share/locale/vi/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/xh/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/zh_CN/LC_MESSAGES/gcalctool.mo
+  /usr/share/locale/zh_HK/LC_MESSAGES/gcalctool.mo
   /usr/share/locale/zh_TW/LC_MESSAGES/gcalctool.mo
   /usr/share/man/man1/gcalctool.1.gz
   /usr/share/omf/gcalctool/gcalctool-C.omf
+  /usr/share/omf/gcalctool/gcalctool-bg.omf
   /usr/share/omf/gcalctool/gcalctool-de.omf
   /usr/share/omf/gcalctool/gcalctool-es.omf
   /usr/share/omf/gcalctool/gcalctool-fr.omf
@@ -209,6 +222,9 @@ Files included in the binary package:
 --------------------
 
 Port Notes:
+
+----- version 5.8.25-1 -----
+Version bump for GNOME 2.16.
 
 ----- version 5.6.31-1 -----
 Version bump for GNOME 2.12.
