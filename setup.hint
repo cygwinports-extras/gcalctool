@@ -1,4 +1,4 @@
 category: Math Gnome
-requires: cygwin GConf2 atk gtk2-x11 libgnome2 libgnomeui2
+requires: cygwin GConf2 atk glib2 gtk2-x11 libgnome2 libgnomeui2 libintl8
 sdesc: "GNOME desktop calculator"
 ldesc: "The GNOME desktop calculator"
