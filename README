@@ -3,11 +3,11 @@ gcalctool
 The GNOME desktop calculator.
 
 Runtime requirements:
-  cygwin-1.5.25-11
+  cygwin-1.5.25-15
   atk-1.22.0-1
   GConf2-2.22.0-1
   glib2-2.16.3-1
-  gtk2-x11-2.12.9-1
+  gtk2-x11-2.12.10-1
   libglade2-2.6.2-1
   libintl8-0.15-1
   pango-1.20.3-1
@@ -40,15 +40,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gcalctool-5.22.2-1-src.tar.bz2
+  unpack gcalctool-5.22.3-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gcalctool-5.22.2-1.cygport all
+  cygport ./gcalctool-5.22.3-1.cygport all
 
 This will create:
-  /usr/src/gcalctool-5.22.2-1-src.tar.bz2
-  /usr/src/gcalctool-5.22.2-1.tar.bz2
+  /usr/src/gcalctool-5.22.3-1-src.tar.bz2
+  /usr/src/gcalctool-5.22.3-1.tar.bz2
 
 -------------------------------------------
 
@@ -60,14 +60,14 @@ Files included in the binary package:
   /usr/bin/gcalctool.exe
   /usr/bin/gnome-calculator
   /usr/share/applications/gcalctool.desktop
-  /usr/share/doc/gcalctool-5.22.2/AUTHORS
-  /usr/share/doc/gcalctool-5.22.2/COPYING
-  /usr/share/doc/gcalctool-5.22.2/ChangeLog
-  /usr/share/doc/gcalctool-5.22.2/INSTALL
-  /usr/share/doc/gcalctool-5.22.2/MAINTAINERS
-  /usr/share/doc/gcalctool-5.22.2/NEWS
-  /usr/share/doc/gcalctool-5.22.2/README
-  /usr/share/doc/gcalctool-5.22.2/TODO
+  /usr/share/doc/gcalctool-5.22.3/AUTHORS
+  /usr/share/doc/gcalctool-5.22.3/COPYING
+  /usr/share/doc/gcalctool-5.22.3/ChangeLog
+  /usr/share/doc/gcalctool-5.22.3/INSTALL
+  /usr/share/doc/gcalctool-5.22.3/MAINTAINERS
+  /usr/share/doc/gcalctool-5.22.3/NEWS
+  /usr/share/doc/gcalctool-5.22.3/README
+  /usr/share/doc/gcalctool-5.22.3/TODO
   /usr/share/gcalctool/gcalctool.glade
   /usr/share/gnome/help/gcalctool/C/figures/gcalctool_advanced_window.png
   /usr/share/gnome/help/gcalctool/C/figures/gcalctool_basic_window.png
@@ -254,6 +254,9 @@ Files included in the binary package:
 --------------------
 
 Port Notes:
+
+----- version 5.22.3-1 -----
+Version bump.
 
 ----- version 5.22.2-1 -----
 Version bump for GNOME 2.22.
