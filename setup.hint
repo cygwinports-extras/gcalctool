@@ -1,4 +1,4 @@
 category: Math Gnome
-requires: GConf2 libatk1.0_0 libgcc1 libgconf2_4 libglib2.0_0 libgtk2.0_0 libintl8 libpango1.0_0 libxml2
+requires: libatk1.0_0 libglib2.0_0 libgtk2.0_0 libintl8 libpango1.0_0 libxml2
 sdesc: "GNOME desktop calculator"
 ldesc: "The GNOME desktop calculator"
