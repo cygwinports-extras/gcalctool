@@ -1,0 +1,13 @@
+inherit gnome2
+
+NAME="gcalctool"
+VERSION=6.6.2
+RELEASE=1
+CATEGORY="Math GNOME"
+SUMMARY="GNOME desktop calculator"
+DESCRIPTION="The GNOME desktop calculator"
+
+DEPEND="gnome-common gnome-doc-utils
+	bison flex
+	pkgconfig(gtk+-3.0)
+	pkgconfig(libxml-2.0)"

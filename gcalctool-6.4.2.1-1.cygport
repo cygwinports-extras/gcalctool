@@ -1,8 +1,0 @@
-inherit gnome2
-
-DESCRIPTION="GNOME calculator"
-
-DEPEND="gnome-common gnome-doc-utils
-	bison flex
-	pkgconfig(gtk+-3.0)
-	pkgconfig(libxml-2.0)"
